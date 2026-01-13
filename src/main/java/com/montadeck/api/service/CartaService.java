@@ -28,4 +28,21 @@ public class CartaService {
         return cartaRepository.save(carta);
     }
     
+    public Carta atualizar(Long id, Carta cartaAtualizada) {
+        Carta carta = buscaPorId(id);
+        carta.setNome(cartaAtualizada.getNome());
+        carta.setTipo(cartaAtualizada.getTipo());
+        carta.setCustoMana(cartaAtualizada.getCustoMana());
+        carta.setTexto(cartaAtualizada.getTexto());
+        carta.setRaridade(cartaAtualizada.getRaridade());
+        carta.setCor(cartaAtualizada.getCor());
+        return cartaRepository.save(carta);
+    }
+
+    public void deletar(Long id) {
+        Carta carta = buscaPorId(id);
+        cartaRepository.delete(carta);
+    }
+
+
 }

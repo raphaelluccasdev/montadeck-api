@@ -30,4 +30,14 @@ public class CartaController {
     public Carta criarCarta(@RequestBody Carta carta) {
         return cartaService.criarCarta(carta);
     }
+
+    @PutMapping("/{id}")
+    public Carta atualiz(@PathVariable Long id, @RequestBody Carta carta) {
+        return cartaService.atualizar(id, carta);
+    }
+    
+    @DeleteMapping("/{id}")
+    public void deletarCarta(@PathVariable Long id) {
+        cartaService.deletar(id);
+    }
 }

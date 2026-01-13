@@ -1,5 +1,5 @@
-/Users/raphaelluccaa/Desktop/MONTADECK/montadeck-api/src/main/java/com/montadeck/api/controller/CartaController.java
-/Users/raphaelluccaa/Desktop/MONTADECK/montadeck-api/src/main/java/com/montadeck/api/repository/CartaRepository.java
-/Users/raphaelluccaa/Desktop/MONTADECK/montadeck-api/src/main/java/com/montadeck/api/service/CartaService.java
-/Users/raphaelluccaa/Desktop/MONTADECK/montadeck-api/src/main/java/com/montadeck/api/model/Carta.java
-/Users/raphaelluccaa/Desktop/MONTADECK/montadeck-api/src/main/java/com/montadeck/api/MontaDeckApiApplication.java
+/Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/service/CartaService.java
+/Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/model/Carta.java
+/Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/repository/CartaRepository.java
+/Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/controller/CartaController.java
+/Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/MontaDeckApiApplication.java
