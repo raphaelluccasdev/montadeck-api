@@ -1,4 +1,5 @@
+com/montadeck/api/repository/CardRepository.class
+com/montadeck/api/model/Card.class
+com/montadeck/api/service/CardService.class
 com/montadeck/api/MontaDeckApiApplication.class
-com/montadeck/api/model/Carta.class
-com/montadeck/api/service/CartaService.class
-com/montadeck/api/repository/CartaRepository.class
+com/montadeck/api/controller/CardController.class
