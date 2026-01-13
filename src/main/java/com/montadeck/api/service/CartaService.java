@@ -23,5 +23,9 @@ public class CartaService {
         return cartaRepository.findById(id)
         .orElseThrow(() -> new RuntimeException("Carta não encontrada com id: " + id));
     }
+
+    public Carta criarCarta(Carta carta) {
+        return cartaRepository.save(carta);
+    }
     
 }

@@ -25,4 +25,9 @@ public class CartaController {
     public Carta buscarPorId(@PathVariable Long id) {
         return cartaService.buscaPorId(id);
     }
+
+    @PostMapping
+    public Carta criarCarta(@RequestBody Carta carta) {
+        return cartaService.criarCarta(carta);
+    }
 }
