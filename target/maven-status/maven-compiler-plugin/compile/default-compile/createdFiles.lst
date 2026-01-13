@@ -1,1 +1,4 @@
 com/montadeck/api/model/Carta.class
+com/montadeck/api/MontaDeckApiApplication.class
+com/montadeck/api/service/CartaService.class
+com/montadeck/api/repository/CartaRepository.class
