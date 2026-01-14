@@ -1,5 +1,8 @@
 /Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/service/CardService.java
+/Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/exception/ResourceNotFoundException.java
+/Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/exception/GlobalExceptionHandler.java
 /Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/repository/CardRepository.java
+/Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/exception/ErrorResponse.java
 /Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/controller/CardController.java
 /Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/MontaDeckApiApplication.java
 /Users/raphaelluccaa/Desktop/montadeck-api/src/main/java/com/montadeck/api/model/Card.java

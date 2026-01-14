@@ -1,5 +1,6 @@
 package com.montadeck.api.service;
 
+import com.montadeck.api.exception.ResourceNotFoundException;
 import com.montadeck.api.model.Card;
 import com.montadeck.api.repository.CardRepository;
 import org.springframework.stereotype.Service;
@@ -21,7 +22,7 @@ public class CardService {
 
     public Card findById(Long id) {
         return cardRepository.findById(id)
-        .orElseThrow(() -> new RuntimeException("Card not found by id: " + id));
+        .orElseThrow(() -> new ResourceNotFoundException("Card not found with id: " + id));
     }
 
     public Card createCard(Card card) {
@@ -43,6 +44,5 @@ public class CardService {
         Card card = findById(id);
         cardRepository.delete(card);
     }
-
 
 }
