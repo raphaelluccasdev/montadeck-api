@@ -2,6 +2,9 @@ package com.montadeck.api.controller;
 
 import com.montadeck.api.model.Card;
 import com.montadeck.api.service.CardService;
+
+import jakarta.validation.Valid;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -27,12 +30,12 @@ public class CardController {
     }
 
     @PostMapping
-    public Card createCard(@RequestBody Card card) {
+    public Card createCard(@Valid@RequestBody Card card) {
         return cardService.createCard(card);
     }
 
     @PutMapping("/{id}")
-    public Card updateCard(@PathVariable Long id, @RequestBody Card card) {
+    public Card updateCard(@PathVariable Long id, @Valid @RequestBody Card card) {
         return cardService.updateCard(id, card);
     }
     
