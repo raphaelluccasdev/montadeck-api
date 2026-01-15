@@ -1,8 +1,8 @@
 com/montadeck/api/model/Card.class
 com/montadeck/api/exception/GlobalExceptionHandler.class
 com/montadeck/api/MontaDeckApiApplication.class
-com/montadeck/api/exception/ErrorResponse.class
 com/montadeck/api/exception/ResourceNotFoundException.class
 com/montadeck/api/repository/CardRepository.class
+com/montadeck/api/exception/ErrorResponse.class
 com/montadeck/api/service/CardService.class
 com/montadeck/api/controller/CardController.class
